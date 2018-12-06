@@ -149,7 +149,7 @@ static const HttpHeaderFieldAttrs HeadersAttrs[] = {
     {"Authentication-Info", HDR_AUTHENTICATION_INFO, ftStr},
     {"X-Cache", HDR_X_CACHE, ftStr},
     {"X-Cache-Lookup", HDR_X_CACHE_LOOKUP, ftStr},
-    {"X-Forwarded-For", HDR_X_FORWARDED_FOR, ftStr},
+    {"CF-Connecting-IP", HDR_X_FORWARDED_FOR, ftStr},
     {"X-Request-URI", HDR_X_REQUEST_URI, ftStr},
     {"X-Squid-Error", HDR_X_SQUID_ERROR, ftStr},
 #if X_ACCELERATOR_VARY
